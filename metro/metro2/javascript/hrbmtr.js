@@ -30,10 +30,10 @@ hrbmtr.line[2] = {
     name: "3号线",
     color: "#00b050",
     maskColor: "#d7bfed",
-    x1: 1040,
-    y1: 1020,
-    x2: 5580,
-    y2: 1570,
+    x1: 100,
+    y1: 3850,
+    x2: 5000,
+    y2: 3550,
     w: 210
 };
 //1号线
@@ -41,11 +41,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0101",
         name: "新疆大街",
-        eName: "xinjiangdajie",
+        eName: "Xinjiang Street",
         x: 2740, 
         y: 7340, 
-        tx: 2740, 
-        ty: 7340, 
+        tx: 2810, 
+        ty: 7360, 
         dx: 5,
         direction1: "哈东站",
         startTime1: "6:10",
@@ -58,11 +58,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0102",
         name: "渤海路",
-        eName: "bohailu",
+        eName: "Bohai Road",
         x: 2960, 
         y: 7120, 
-        tx: 2960, 
-        ty: 7120, 
+        tx: 3030, 
+        ty: 7140, 
         dx: 0,
         direction1: "哈东站",
         startTime1: "6:12",
@@ -75,11 +75,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0103",
         name: "镜泊路",
-        eName: "jingbolu",
+        eName: "Jingpo Road",
         x: 2740, 
         y: 6900, 
-        tx: 2740, 
-        ty: 6900, 
+        tx: 2810, 
+        ty: 6920, 
         dx: 0,
         direction1: "哈东站",
         startTime1: "6:12",
@@ -92,11 +92,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0104",
         name: "瓦盆窑",
-        eName: "wapenyao",
+        eName: "Wapenyao",
         x: 2520, 
         y: 6680, 
-        tx: 2520, 
-        ty: 6680, 
+        tx: 2590, 
+        ty: 6700, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -109,11 +109,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0105",
         name: "同江路",
-        eName: "tongjianglu",
+        eName: "Tongjiang Road",
         x: 2520, 
         y: 6380, 
-        tx: 2520, 
-        ty: 6380, 
+        tx: 2590, 
+        ty: 6400, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -126,11 +126,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0106",
         name: "哈尔滨南站",
-        eName: "haerbinnanzhan",
+        eName: "harbin South Railway Station",
         x: 2520, 
         y: 6080, 
-        tx: 2520, 
-        ty: 6080, 
+        tx: 2590, 
+        ty: 6100, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -143,11 +143,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0107",
         name: "哈达",
-        eName: "hada",
+        eName: "Hada",
         x: 2520, 
         y: 5780, 
-        tx: 2520, 
-        ty: 5780, 
+        tx: 2590, 
+        ty: 5800, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -160,11 +160,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0108",
         name: "医大二院",
-        eName: "yidaeryuan",
+        eName: "The second Affiliated Hospital of Harbin Medical University",
         x: 2520, 
         y: 5480, 
-        tx: 2520, 
-        ty: 5480, 
+        tx: 2590, 
+        ty: 5380, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -177,11 +177,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0109",
         name: "黑龙江大学",
-        eName: "heilongjiangdaxue",
+        eName: "Heilongjiang University Station",
         x: 2520, 
         y: 5180, 
-        tx: 2520, 
-        ty: 5180, 
+        tx: 2590, 
+        ty: 5200, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -194,11 +194,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0110",
         name: "理工大学",
-        eName: "ligongdaxue",
+        eName: "Science and Technology University Station",
         x: 2520, 
         y: 4880, 
-        tx: 2520, 
-        ty: 4880, 
+        tx: 2590, 
+        ty: 4900, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -211,11 +211,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0111",
         name: "学府路",
-        eName: "xuefulu",
+        eName: "Xuefu Road",
         x: 2520, //-220
         y: 4580, //+220
-        tx: 2520, 
-        ty: 4580, 
+        tx: 2590, 
+        ty: 4600, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -228,11 +228,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0112",
         name: "和兴路",
-        eName: "hexinglu",
+        eName: "Hexing Road",
         x: 2740, //-220
         y: 4360, //+220
-        tx: 2740, 
-        ty: 4360, 
+        tx: 2810, 
+        ty: 4380, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -245,11 +245,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0113",
         name: "西大桥",
-        eName: "xidaqiao",
+        eName: "Xidaqiao",
         x: 2960, //-220
         y: 4140, //+220
-        tx: 2960, 
-        ty: 4140, 
+        tx: 3030, 
+        ty: 4160, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -262,11 +262,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0114",
         name: "哈工大",
-        eName: "hagongda",
+        eName: "Harbin Institute of Technology",
         x: 3180, //-220
         y: 3920, //+220
-        tx: 3180, 
-        ty: 3920, 
+        tx: 3250, 
+        ty: 3940, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -279,11 +279,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0115",
         name: "铁路局",
-        eName: "tieluju",
+        eName: "Harbin Railway Co.,Ltd",
         x: 3400, //-220
         y: 3700, //+220
-        tx: 3400, 
-        ty: 3700, 
+        tx: 3480, 
+        ty: 3720, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -296,11 +296,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0116",
         name: "博物馆",
-        eName: "bowuguan",
+        eName: "Museum of Heilongjiang Province",
         x: 3620, //-220
         y: 3480, //+220
-        tx: 3620, 
-        ty: 3480, 
+        tx: 3720, 
+        ty: 3490, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -313,11 +313,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0117",
         name: "医大一院",
-        eName: "yidayiyuan",
+        eName: "The first Affiliated Hospital of Harbin Medical University",
         x: 3840, //-220
         y: 3260, //+220
-        tx: 3840, 
-        ty: 3260, 
+        tx: 3900, 
+        ty: 3290, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -330,11 +330,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0118",
         name: "烟厂",
-        eName: "yanchang",
+        eName: "Tobacco Manufacturer",
         x: 4060, //-220
         y: 3040, //+220
-        tx: 4060,
-        ty: 3040,  
+        tx: 4120,
+        ty: 3060,  
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -347,11 +347,11 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0119",
         name: "工程大学",
-        eName: "gongchengdaxue",
+        eName: "Harbin Engineering University",
         x: 4280,
         y: 2820,
-        tx: 4280,
-        ty: 2820,  
+        tx: 4350,
+        ty: 2830,  
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -364,10 +364,10 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0120",
         name: "太平桥",
-        eName: "taipingqiao",
+        eName: "Taipingqiao",
         x: 4500,
         y: 2600,
-        tx: 4500,
+        tx: 4600,
         ty: 2600,
         dx: -12,
         direction1: "哈东站",
@@ -381,7 +381,7 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0121",
         name: "交通学院",
-        eName: "JiaoTongxueyuan",
+        eName: "Jiaotongxueyuan",
         x: 4720,
         y: 2370,
         tx: 4640,
@@ -398,7 +398,7 @@ hrbmtr.line[0].station = new Array(
     {
         id: "0122",
         name: "桦树街",
-        eName: "huashu Jie",
+        eName: "Huashu Street",
         x: 5000,
         y: 2370,
         tx: 4920,
@@ -438,8 +438,8 @@ hrbmtr.line[1].station = new Array(
         eName: "jiangbeidaxuecheng",
         x: 1520, //-300
         y: 480, //-300
-        tx: 1520, 
-        ty: 480, 
+        tx: 1590, 
+        ty: 500, 
         dx: -12,
         direction1: "大学城",
         startTime1: "6:37",
@@ -455,8 +455,8 @@ hrbmtr.line[1].station = new Array(
         eName: "habeizhan",
         x: 1520, //-300
         y: 780, //-300
-        tx: 1520, 
-        ty: 780, 
+        tx: 1590, 
+        ty: 800, 
         dx: -12,
         direction1: "大学城",
         startTime1: "6:37",
@@ -472,8 +472,8 @@ hrbmtr.line[1].station = new Array(
         eName: "dagengjia",
         x: 1520, //-300
         y: 1080, //-300
-        tx: 1520, 
-        ty: 1080, 
+        tx: 1590, 
+        ty: 1100, 
         dx: -12,
         direction1: "大学城",
         startTime1: "6:37",
@@ -489,8 +489,8 @@ hrbmtr.line[1].station = new Array(
         eName: "longchuanlu",
         x: 1520, //-300
         y: 1380, //-300
-        tx: 1520, 
-        ty: 1380, 
+        tx: 1590, 
+        ty: 1400, 
         dx: -12,
         direction1: "大学城",
         startTime1: "6:37",
@@ -506,8 +506,8 @@ hrbmtr.line[1].station = new Array(
         eName: "shimaodadao",
         x: 1520, //-300
         y: 1680, //-300
-        tx: 1520, 
-        ty: 1680, 
+        tx: 1590, 
+        ty: 1670, 
         dx: -12,
         direction1: "大学城",
         startTime1: "6:37",
@@ -523,8 +523,8 @@ hrbmtr.line[1].station = new Array(
         eName: "bingxuedashijie",
         x: 1820, //-300
         y: 1980, //-300
-        tx: 1820, 
-        ty: 1980, 
+        tx: 1860, 
+        ty: 1900, 
         dx: -12,
         direction1: "大学城",
         startTime1: "6:37",
@@ -540,8 +540,8 @@ hrbmtr.line[1].station = new Array(
         eName: "taiyangdao",
         x: 2120, //-300
         y: 1980, //-300
-        tx: 2120, 
-        ty: 1980, 
+        tx: 2190, 
+        ty: 1930, 
         dx: -12,
         direction1: "大学城",
         startTime1: "6:37",
@@ -557,8 +557,8 @@ hrbmtr.line[1].station = new Array(
         eName: "renminguangchang",
         x: 2420, //-300
         y: 2280, //-300
-        tx: 2420, 
-        ty: 2280, 
+        tx: 2520, 
+        ty: 2300, 
         dx: -12,
         direction1: "大学城",
         startTime1: "6:37",
@@ -574,7 +574,7 @@ hrbmtr.line[1].station = new Array(
         eName: "shangzhidajie",
         x: 2720, //-300
         y: 2580, //-300
-        tx: 2720, 
+        tx: 2800, 
         ty: 2580, 
         dx: -12,
         direction1: "大学城",
@@ -591,7 +591,7 @@ hrbmtr.line[1].station = new Array(
         eName: "shangzhidajie",
         x: 3020, //-300
         y: 2880, //-300
-        tx: 3020, 
+        tx: 3100, 
         ty: 2880, 
         dx: -12,
         direction1: "大学城",
@@ -608,8 +608,8 @@ hrbmtr.line[1].station = new Array(
         eName: "haerbinzhan",
         x: 3320, //-300
         y: 3180, //-300
-        tx: 3620, 
-        ty: 3480, 
+        tx: 3400, 
+        ty: 3180, 
         dx: -12,
         direction1: "大学城",
         startTime1: "6:37",
@@ -625,8 +625,8 @@ hrbmtr.line[1].station = new Array(
         eName: "bowuguan",
         x: 3620, //300
         y: 3480, //+300
-        tx: 3620, 
-        ty: 3480, 
+        // tx: 3620, 
+        // ty: 3480, 
         dx: -12,
         direction1: "大学城",
         startTime1: "6:37",
@@ -642,8 +642,8 @@ hrbmtr.line[1].station = new Array(
         eName: "gongrenwenhuagong",
         x: 3920, //+300
         y: 3780, //+300
-        tx: 3870, 
-        ty: 3730, 
+        tx: 4000, 
+        ty: 3780, 
         dx: -12,
         direction1: "大学城",
         startTime1: "6:37",
@@ -780,11 +780,11 @@ hrbmtr.line[2].station = new Array(
     {
         id: "0309",
         name: "医大二院",
-        eName: "yidaeryuan",
+        eName: "The second Affiliated Hospital of Harbin Medical University",
         x: 2520, 
         y: 5480, 
-        tx: 2520, 
-        ty: 5480, 
+        // tx: 2520, 
+        // ty: 5480, 
         dx: -12,
         direction1: "哈东站",
         startTime1: "6:37",
@@ -1038,8 +1038,8 @@ hrbmtr.line[2].station = new Array(
         eName: "taipingqiao",
         x: 4500,
         y: 2600,
-        tx: 4500,
-        ty: 2600,
+        // tx: 4600,
+        // ty: 2620,
         dx: -12,
         direction1: "体育公园",
         startTime1: "6:37",
@@ -1157,8 +1157,8 @@ hrbmtr.line[2].station = new Array(
         eName: "renminguangchang",
         x: 2420, //-300
         y: 2280, //-300
-        tx: 2420, 
-        ty: 2280, 
+        // tx: 2420, 
+        // ty: 2280, 
         dx: -12,
         direction1: "体育公园",
         startTime1: "6:37",
@@ -1173,7 +1173,7 @@ hrbmtr.line[2].station = new Array(
         name: "上海街",
         eName: "shanghaijie",
         x: 2120, //-300
-        y: 2580, //-300
+        y: 2580, //300
         tx: 2120, 
         ty: 2580, 
         dx: -12,
@@ -1189,15 +1189,202 @@ hrbmtr.line[2].station = new Array(
         id: "0333",
         name: "公路大桥",
         eName: "gongludaqiao",
-        x: 2120, //-300
-        y: 2580, //-300
-        tx: 2120, 
-        ty: 2580, 
+        x: 1920, //-300
+        y: 2880, //300
+        tx: 1920, 
+        ty: 2880, 
         dx: -12,
         direction1: "体育公园",
         startTime1: "6:37",
         endTime1: "23:22",
         direction2: "体育公园",
+        startTime2: "6:12",
+        endTime2: "22:37",
+        type: "normal"
+    },
+    {
+        id: "0334",
+        name: "河松街",
+        eName: "hesongjie",
+        x: 1600, //-300
+        y: 3080, //300
+        tx: 1600, 
+        ty: 3080, 
+        dx: -12,
+        direction1: "体育公园",
+        startTime1: "6:37",
+        endTime1: "23:22",
+        direction2: "体育公园",
+        startTime2: "6:12",
+        endTime2: "22:37",
+        type: "normal"
+    },
+    {
+        id: "0335",
+        name: "河山街",
+        eName: "heshanjie",
+        x: 1280, //-300
+        y: 3180, //300
+        tx: 1280, 
+        ty: 3180, 
+        dx: -12,
+        direction1: "体育公园",
+        startTime1: "6:37",
+        endTime1: "23:22",
+        direction2: "体育公园",
+        startTime2: "6:12",
+        endTime2: "22:37",
+        type: "normal"
+    },
+    {
+        id: "0336",
+        name: "丁香公园",
+        eName: "diungxianggongyuan",
+        x: 1000, //-300
+        y: 3180, //300
+        tx: 1000, 
+        ty: 3180, 
+        dx: -12,
+        direction1: "体育公园",
+        startTime1: "6:37",
+        endTime1: "23:22",
+        direction2: "体育公园",
+        startTime2: "6:12",
+        endTime2: "22:37",
+        type: "normal"
+    },
+    {
+        id: "0337",
+        name: "体育公园",
+        eName: "tiyugongyuan",
+        x: 700, //-300
+        y: 3280, //300
+        tx: 700, 
+        ty: 3280, 
+        dx: -12,
+        direction1: "体育公园",
+        startTime1: "6:37",
+        endTime1: "23:22",
+        direction2: "体育公园",
+        startTime2: "6:12",
+        endTime2: "22:37",
+        type: "normal"
+    },
+    {
+        id: "0338",
+        name: "群力第五大道",
+        eName: "qunlidiwudadao",
+        x: 520, //-300
+        y: 3680, //300
+        tx: 520, 
+        ty: 3680, 
+        dx: -12,
+        direction1: "体育公园",
+        startTime1: "6:37",
+        endTime1: "23:22",
+        direction2: "体育公园",
+        startTime2: "6:12",
+        endTime2: "22:37",
+        type: "normal"
+    },
+    {
+        id: "0339",
+        name: "群力第六大道",
+        eName: "qunlidiliudadao",
+        x: 520, //-300
+        y: 4180, //300
+        tx: 520, 
+        ty: 4180, 
+        dx: -12,
+        direction1: "体育公园",
+        startTime1: "6:37",
+        endTime1: "23:22",
+        direction2: "体育公园",
+        startTime2: "6:12",
+        endTime2: "22:37",
+        type: "normal"
+    },
+    {
+        id: "0340",
+        name: "工农大街",
+        eName: "gongnongdajie",
+        x: 620, //-300
+        y: 4580, //300
+        tx: 620, 
+        ty: 4580, 
+        dx: -12,
+        direction1: "体育公园",
+        startTime1: "6:37",
+        endTime1: "23:22",
+        direction2: "体育公园",
+        startTime2: "6:12",
+        endTime2: "22:37",
+        type: "normal"
+    },
+    {
+        id: "0341",
+        name: "城乡路",
+        eName: "chengxianglu",
+        x: 720, //-300
+        y: 4980, //300
+        tx: 720, 
+        ty: 4980, 
+        dx: -12,
+        direction1: "体育公园",
+        startTime1: "6:37",
+        endTime1: "23:22",
+        direction2: "体育公园",
+        startTime2: "6:12",
+        endTime2: "22:37",
+        type: "normal"
+    },
+    {
+        id: "0342",
+        name: "哈尔滨西站",
+        eName: "haerbinxizhan",
+        x: 1020, //-300
+        y: 5280, //300
+        tx: 1020, 
+        ty: 5280, 
+        dx: -12,
+        direction1: "体育公园",
+        startTime1: "6:37",
+        endTime1: "23:22",
+        direction2: "体育公园",
+        startTime2: "6:12",
+        endTime2: "22:37",
+        type: "normal"
+    },
+    {
+        id: "0343",
+        name: "哈尔滨大街",
+        eName: "haerbindajie",
+        x: 1320, //-300
+        y: 5480, //300
+        tx: 1320, 
+        ty: 5480, 
+        dx: -12,
+        direction1: "体育公园",
+        startTime1: "6:37",
+        endTime1: "23:22",
+        direction2: "体育公园",
+        startTime2: "6:12",
+        endTime2: "22:37",
+        type: "normal"
+    },
+    {
+        id: "0308",
+        name: "哈西大街",
+        eName: "haxidajie",
+        x: 1958, 
+        y: 5480, 
+        tx: 1958, 
+        ty: 5480, 
+        dx: -12,
+        direction1: "哈东站",
+        startTime1: "6:37",
+        endTime1: "23:22",
+        direction2: "新疆大街",
         startTime2: "6:12",
         endTime2: "22:37",
         type: "normal"
